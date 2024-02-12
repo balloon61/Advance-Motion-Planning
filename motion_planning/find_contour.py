@@ -43,3 +43,10 @@ def find_contour():
 
 def Minkowski_sum():
     image = cv2.imread('map.png')
+
+
+    # see the results
+    cv2.imshow('None approximation', image)
+    cv2.waitKey(0)
+    cv2.imwrite('contours_none_image1.jpg', image)
+    cv2.destroyAllWindows()
